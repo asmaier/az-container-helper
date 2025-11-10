@@ -1,11 +1,21 @@
 [project]
 name = "az-container-helper"
-version = "0.1.1"
+version = "0.1.2"
 description = "Helper classes and methods for using Azure services from inside a local Docker container."
 authors = [
     { name = "asmaier", email = "asmaier@web.de" }
 ]
 readme = "README.md"
+license = "MIT"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.12",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development",
+    "Topic :: Utilities",
+]
 
 requires-python = ">=3.12"
 dependencies = [
